@@ -2,7 +2,7 @@ local NoobTacoUIv2, E, L, V, P, G = unpack(select(2, ...))
 
 function NoobTacoUIv2:SetupChat()
     E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT"
-    E.db["chat"]["font"] = "Roboto-Medium"
+    E.db["chat"]["font"] = "Exo2-Bold"
     E.db["chat"]["fontSize"] = 14
     E.db["chat"]["keywordSound"] = "Simon Chime"
     E.db["chat"]["panelBackdrop"] = "LEFT"
@@ -12,8 +12,8 @@ function NoobTacoUIv2:SetupChat()
     E.db["chat"]["panelColor"]["r"] = 0.13725490196078
     E.db["chat"]["panelHeight"] = 250
     E.db["chat"]["panelWidth"] = 550
-    E.db["chat"]["tabFont"] = "Exo2-Medium"
-    E.db["chat"]["tabFontSize"] = 14
+    E.db["chat"]["tabFont"] = "Exo2-Bold"
+    E.db["chat"]["tabFontSize"] = 15
     E.db["chat"]["tabSelector"] = "BOX1"
     E.db["chat"]["tabSelectorColor"]["b"] = 0.8156862745098
     E.db["chat"]["tabSelectorColor"]["g"] = 0.75294117647059
