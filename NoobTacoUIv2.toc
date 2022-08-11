@@ -1,0 +1,20 @@
+## Interface: 90205
+## Interface-Classic: 11403
+## Interface-BCC: 20504
+## Interface-Wrath: 30400
+## Title: |cFF16C3F2NoobTaco|r|cFFFFFFFFUI|rv2
+## Author: NoobTaco
+## Version: 0.0.1
+## Notes: Contains layouts from NoobTacoUIv2
+## RequiredDeps: ElvUI
+## DefaultState: enabled
+## X-Tukui-ProjectID: 
+## X-Tukui-ProjectFolders: NoobTacoUIv2
+## X-WoWI-ID: 
+## X-Curse-Project-ID: 
+## X-Wago-ID: 
+
+Libraries\Load_Libraries.xml
+Media\Load_Media.xml
+Code.lua
+modules\load_modules.xml
