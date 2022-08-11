@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
       - name: Run luacheck
         uses: BigWigsMods/actions/luacheck@master
@@ -21,8 +21,8 @@ jobs:
           input: CHANGELOG.md
           output: RECENT_CHANGES.md
 
-      - name: Package Retail
-        uses: BigWigsMods/packager@master
+      - name: Package and release
+        uses: BigWigsMods/packager@v2
         with:
           args: -d
 
