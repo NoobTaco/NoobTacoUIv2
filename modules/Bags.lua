@@ -1,6 +1,7 @@
 local NoobTacoUIv2, E, L, V, P, G = unpack(select(2, ...))
 
 function NoobTacoUIv2:SetupBags()
+    E.db["bags"]["split"]["player"] = false
     E.db["bags"]["bagSize"] = 40
     E.db["bags"]["bagWidth"] = 521
     E.db["bags"]["bankSize"] = 40
