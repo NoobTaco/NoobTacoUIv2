@@ -7,8 +7,9 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["bar1"]["buttonsPerRow"] = 12
     E.db["actionbar"]["bar1"]["buttonSize"] = 32
     E.db["actionbar"]["bar1"]["backdrop"] = true
-    E.db["actionbar"]["bar1"]["hotkeyFont"] = "Montserrat-Bold"
-    E.db["actionbar"]["bar1"]["countFont"] = "Montserrat-Bold"
+    E.db["actionbar"]["bar1"]["countFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar1"]["hotkeyFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar1"]["macroFont"] = "Exo2-Medium"
     E.db["actionbar"]["bar1"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["bar1"]["hotkeyTextXOffset"] = -2
     E.db["actionbar"]["bar1"]["hotkeyFontOutline"] = "NONE"
@@ -20,12 +21,14 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["bar6"]["buttonsPerRow"] = 12
     E.db["actionbar"]["bar6"]["buttonSize"] = 32
     E.db["actionbar"]["bar6"]["backdrop"] = true
-    E.db["actionbar"]["bar6"]["hotkeyFont"] = "Montserrat-Bold"
-    E.db["actionbar"]["bar6"]["countFont"] = "Montserrat-Bold"
+    E.db["actionbar"]["bar6"]["countFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar6"]["hotkeyFont"] = "Exo2-Medium"
     E.db["actionbar"]["bar6"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["bar6"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["bar6"]["hotkeyTextXOffset"] = -2
     E.db["actionbar"]["bar6"]["buttonSpacing"] = 2
+    E.db["actionbar"]["bar6"]["macroFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar6"]["visibility"] = "[overridebar] hide; [petbattle] hide; show"
 
     -- Left Actionbar Cluster
     E.db["actionbar"]["bar3"]["enabled"] = true
@@ -35,24 +38,27 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["bar3"]["inheritGlobalFade"] = true
     E.db["actionbar"]["bar3"]["backdrop"] = true
     E.db["actionbar"]["bar3"]["visibility"] = "[vehicleui] hide; [overridebar] hide; [petbattle] hide; show"
-    E.db["actionbar"]["bar3"]["hotkeyFont"] = "Montserrat-Bold"
-    E.db["actionbar"]["bar3"]["countFont"] = "Montserrat-Bold"
+    E.db["actionbar"]["bar3"]["countFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar3"]["hotkeyFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar3"]["macroFont"] = "Exo2-Medium"
     E.db["actionbar"]["bar3"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["bar3"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["bar3"]["hotkeyTextXOffset"] = -2
     E.db["actionbar"]["bar3"]["buttonSpacing"] = 2
+    E.db["actionbar"]["bar3"]["mouseover"] = true
 
     -- Right Actionbar Cluster - BottomRight
     E.db["actionbar"]["bar5"]["enabled"] = true
     E.db["actionbar"]["bar5"]["buttons"] = 12
-    E.db["actionbar"]["bar2"]["mouseover"] = false
+    E.db["actionbar"]["bar2"]["mouseover"] = true
     E.db["actionbar"]["bar5"]["buttonsPerRow"] = 6
     E.db["actionbar"]["bar5"]["buttonSize"] = 25
     E.db["actionbar"]["bar5"]["inheritGlobalFade"] = true
     E.db["actionbar"]["bar5"]["backdrop"] = true
     E.db["actionbar"]["bar5"]["visibility"] = "[vehicleui] hide; [overridebar] hide; [petbattle] hide; show"
-    E.db["actionbar"]["bar5"]["hotkeyFont"] = "Montserrat-Bold"
-    E.db["actionbar"]["bar5"]["countFont"] = "Montserrat-Bold"
+    E.db["actionbar"]["bar5"]["countFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar5"]["hotkeyFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar5"]["macroFont"] = "Exo2-Medium"
     E.db["actionbar"]["bar5"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["bar5"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["bar5"]["hotkeyTextXOffset"] = -2
@@ -65,14 +71,15 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["bar2"]["backdrop"] = true
     E.db["actionbar"]["bar2"]["buttonsPerRow"] = 2
     E.db["actionbar"]["bar2"]["buttonSize"] = 25
-    E.db["actionbar"]["bar2"]["hotkeyFont"] = "Montserrat-Bold"
-    E.db["actionbar"]["bar2"]["countFont"] = "Montserrat-Bold"
+    E.db["actionbar"]["bar2"]["hotkeyFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar2"]["countFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar2"]["macroFont"] = "Exo2-Medium"
     E.db["actionbar"]["bar2"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["bar2"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["bar2"]["hotkeyTextXOffset"] = -2
+
     -- Disabled Actionbars
     E.db["actionbar"]["bar4"]["enabled"] = false
-    E.db["actionbar"]["bar6"]["visibility"] = "[overridebar] hide; [petbattle] hide; show"
 
     -- Actionbar Options from import
     E.db["actionbar"]["fontColor"]["r"] = 0.68235294117647
@@ -86,9 +93,11 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["notUsableColor"]["r"] = 0.26274509803922
     E.db["actionbar"]["notUsableColor"]["g"] = 0.29803921568627
     E.db["actionbar"]["notUsableColor"]["b"] = 0.36862745098039
+    E.db["actionbar"]["microbar"]["buttonHeight"] = 25
+    E.db["actionbar"]["microbar"]["buttonSize"] = 25
     E.db["actionbar"]["microbar"]["enabled"] = true
     E.db["actionbar"]["microbar"]["mouseover"] = true
-    E.db["actionbar"]["font"] = "Montserrat-Bold"
+    E.db["actionbar"]["font"] = "Exo2-Medium"
     E.db["actionbar"]["noPowerColor"]["r"] = 0.36862745098039
     E.db["actionbar"]["noPowerColor"]["g"] = 0.56862745098039
     E.db["actionbar"]["noPowerColor"]["b"] = 0.67450980392157
@@ -99,14 +108,15 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["addNewSpells"] = true
     E.db["actionbar"]["stanceBar"]["buttonSize"] = 25
     E.db["actionbar"]["stanceBar"]["buttonsPerRow"] = 1
-    E.db["actionbar"]["stanceBar"]["hotkeyFont"] = "Montserrat-Bold"
+    E.db["actionbar"]["stanceBar"]["hotkeyFont"] = "Exo2-Medium"
     E.db["actionbar"]["stanceBar"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["stanceBar"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["stanceBar"]["hotkeyTextXOffset"] = -2
     E.db["actionbar"]["barPet"]["buttonsPerRow"] = 10
     E.db["actionbar"]["barPet"]["buttonSize"] = 25
     E.db["actionbar"]["barPet"]["point"] = "TOPLEFT"
-    E.db["actionbar"]["barPet"]["hotkeyFont"] = "Montserrat-Bold"
+    E.db["actionbar"]["barPet"]["hotkeyFont"] = "Exo2-Medium"
+    E.db["actionbar"]["barPet"]["countFont"] = "Exo2-Medium"
     E.db["actionbar"]["barPet"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["barPet"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["barPet"]["hotkeyTextXOffset"] = -2
