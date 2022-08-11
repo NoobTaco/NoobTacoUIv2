@@ -19,8 +19,8 @@ local function SetSimpleRareElite(Texture)
     SimpleRareElite:ClearAllPoints()
 
     -- Modern
-    SimpleRareElite:SetSize(160, 160)
-    SimpleRareElite:SetPoint("TOPRIGHT", TargetFrame, "TOPRIGHT", 130, 25)
+    SimpleRareElite:SetSize(100, 100)
+    SimpleRareElite:SetPoint("TOPRIGHT", TargetFrame, "TOPRIGHT", 36, 8)
 
     SimpleRareElite:Show()
 end

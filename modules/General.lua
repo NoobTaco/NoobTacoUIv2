@@ -41,6 +41,7 @@ function NoobTacoUIv2:SetupGeneral()
     E.db["general"]["interruptAnnounce"] = "RAID"
     E.db["general"]["minimap"]["locationFont"] = "Exo2-Bold"
     E.db["general"]["minimap"]["locationFontSize"] = 14
+    E.db["general"]["minimap"]["size"] = 190
     E.db["general"]["objectiveFrameHeight"] = 400
     E.db["general"]["resurrectSound"] = true
     E.db["general"]["talkingHeadFrameBackdrop"] = true

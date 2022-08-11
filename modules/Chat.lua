@@ -2,7 +2,7 @@ local NoobTacoUIv2, E, L, V, P, G = unpack(select(2, ...))
 
 function NoobTacoUIv2:SetupChat()
     E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT"
-    E.db["chat"]["font"] = "Exo2-Medium"
+    E.db["chat"]["font"] = "Roboto-Medium"
     E.db["chat"]["fontSize"] = 14
     E.db["chat"]["keywordSound"] = "Simon Chime"
     E.db["chat"]["panelBackdrop"] = "LEFT"
