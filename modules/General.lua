@@ -3,15 +3,16 @@ local NoobTacoUIv2, E, L, V, P, G = unpack(select(2, ...))
 function NoobTacoUIv2:SetupGeneral()
 
     --	PrivateDB
-    E.private["skins"]["parchmentRemoverEnable"] = true
-    E.private["general"]["namefont"] = "Montserrat-Bold"
-    E.private["general"]["dmgfont"] = "Montserrat-Bold"
-    E.private["general"]["normTex"] = "ElvUI Norm"
-    E.private["general"]["glossTex"] = "ElvUI Norm"
-    E.private["general"]["chatBubbleFont"] = "Montserrat-SemiBold"
+    E.private["general"]["chatBubbleFont"] = "Exo2-Regular"
     E.private["general"]["chatBubbleFontSize"] = 16
-    E.private["general"]["nameplateLargeFont"] = "Montserrat-Bold"
-    E.private["general"]["nameplateFont"] = "Montserrat-SemiBold"
+    E.private["general"]["dmgfont"] = "Exo2-SemiBold"
+    E.private["general"]["glossTex"] = "ElvUI Norm"
+    E.private["general"]["namefont"] = "Exo2-Bold"
+    E.private["general"]["nameplateFont"] = "Exo2-SemiBold"
+    E.private["general"]["nameplateLargeFont"] = "Exo2-ExtraBold"
+    E.private["general"]["normTex"] = "ElvUI Norm"
+    E.private["general"]["replaceCombatText"] = true
+    E.private["skins"]["parchmentRemoverEnable"] = true
 
     -- if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then -- Retail
     --     E.db["general"]["itemLevel"]["itemLevelFont"] = "Montserrat-Regular"
@@ -28,7 +29,7 @@ function NoobTacoUIv2:SetupGeneral()
     E.db["general"]["backdropcolor"]["b"] = 0.3843137254902
     E.db["general"]["backdropcolor"]["g"] = 0.31764705882353
     E.db["general"]["backdropcolor"]["r"] = 0.27843137254902
-    E.db["general"]["backdropfadecolor"]["a"] = 0.71346852183342
+    E.db["general"]["backdropfadecolor"]["a"] = 0.80
     E.db["general"]["backdropfadecolor"]["b"] = 0.35294117647059
     E.db["general"]["backdropfadecolor"]["g"] = 0.25882352941176
     E.db["general"]["backdropfadecolor"]["r"] = 0.23529411764706
