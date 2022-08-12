@@ -48,7 +48,7 @@ function NoobTacoUIv2:SetupNamePlates()
     E.db["nameplates"]["font"] = "Exo2-Medium"
     E.db["nameplates"]["smoothbars"] = true
     E.db["nameplates"]["threat"]["indicator"] = true
-    E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["countFont"] = "Montserrat-SemiBold"
+    E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["countFont"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["countFontOutline"] = "NONE"
     E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["enable"] = false
     E.db["nameplates"]["units"]["ENEMY_NPC"]["buffs"]["priority"] = "Blacklist,blockNoDuration,Personal,TurtleBuffs"
@@ -97,7 +97,7 @@ function NoobTacoUIv2:SetupNamePlates()
     E.db["nameplates"]["units"]["ENEMY_NPC"]["questIcon"]["yOffset"] = 1
     E.db["nameplates"]["units"]["ENEMY_NPC"]["raidTargetIndicator"]["size"] = 30
     E.db["nameplates"]["units"]["ENEMY_NPC"]["title"]["format"] = "[guild]"
-    E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["countFont"] = "Montserrat-SemiBold"
+    E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["countFont"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["countFontOutline"] = "NONE"
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["enable"] = false
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["buffs"]["maxDuration"] = 0
@@ -137,7 +137,7 @@ function NoobTacoUIv2:SetupNamePlates()
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["power"]["yOffset"] = -11
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["raidTargetIndicator"]["size"] = 30
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["title"]["format"] = "[guild]"
-    E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["countFont"] = "Montserrat-SemiBold"
+    E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["countFont"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["countFontOutline"] = "NONE"
     E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["enable"] = false
     E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["yOffset"] = 20
@@ -184,7 +184,7 @@ function NoobTacoUIv2:SetupNamePlates()
     E.db["nameplates"]["units"]["FRIENDLY_NPC"]["questIcon"]["yOffset"] = 35
     E.db["nameplates"]["units"]["FRIENDLY_NPC"]["raidTargetIndicator"]["size"] = 30
     E.db["nameplates"]["units"]["FRIENDLY_NPC"]["title"]["format"] = "[guild]"
-    E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["buffs"]["countFont"] = "Montserrat-SemiBold"
+    E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["buffs"]["countFont"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["buffs"]["countFontOutline"] = "NONE"
     E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["buffs"]["enable"] = false
     E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["buffs"]["yOffset"] = 20
@@ -220,15 +220,15 @@ function NoobTacoUIv2:SetupNamePlates()
     E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["power"]["yOffset"] = -11
     E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["raidTargetIndicator"]["size"] = 30
     E.db["nameplates"]["units"]["FRIENDLY_PLAYER"]["title"]["format"] = "[guild]"
-    E.db["nameplates"]["units"]["PLAYER"]["buffs"]["countFont"] = "Montserrat-SemiBold"
+    E.db["nameplates"]["units"]["PLAYER"]["buffs"]["countFont"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["PLAYER"]["buffs"]["countFontOutline"] = "NONE"
     E.db["nameplates"]["units"]["PLAYER"]["buffs"]["maxDuration"] = 0
     E.db["nameplates"]["units"]["PLAYER"]["buffs"]["priority"] = "Blacklist,blockNoDuration,Personal,TurtleBuffs"
-    E.db["nameplates"]["units"]["PLAYER"]["castbar"]["font"] = "Montserrat-SemiBold"
+    E.db["nameplates"]["units"]["PLAYER"]["castbar"]["font"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["PLAYER"]["castbar"]["height"] = 12
     E.db["nameplates"]["units"]["PLAYER"]["castbar"]["iconOffsetX"] = 5
     E.db["nameplates"]["units"]["PLAYER"]["castbar"]["iconSize"] = 25
-    E.db["nameplates"]["units"]["PLAYER"]["debuffs"]["countFont"] = "Montserrat-SemiBold"
+    E.db["nameplates"]["units"]["PLAYER"]["debuffs"]["countFont"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["PLAYER"]["debuffs"]["countFontOutline"] = "NONE"
     E.db["nameplates"]["units"]["PLAYER"]["debuffs"]["priority"] =
         "Blacklist,Dispellable,blockNoDuration,Personal,Boss,CCDebuffs"

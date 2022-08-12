@@ -14,16 +14,13 @@ function NoobTacoUIv2:SetupGeneral()
     E.private["general"]["replaceCombatText"] = true
     E.private["skins"]["parchmentRemoverEnable"] = true
 
-    -- if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then -- Retail
-    --     E.db["general"]["itemLevel"]["itemLevelFont"] = "Montserrat-Regular"
-    --     E.db["general"]["altPowerBar"]["statusBarColor"]["b"] = 0.67450980392157
-    --     E.db["general"]["altPowerBar"]["statusBarColor"]["g"] = 0.50588235294118
-    --     E.db["general"]["altPowerBar"]["statusBarColor"]["r"] = 0.36862745098039
-    --     E.db["general"]["altPowerBar"]["font"] = "Montserrat-Medium"
-    --     E.db["general"]["altPowerBar"]["fontOutline"] = "NONE"
-    --     E.db["general"]["altPowerBar"]["height"] = 25
-    --     E.db["general"]["altPowerBar"]["width"] = 417
-    -- end
+    E.db["general"]["altPowerBar"]["font"] = "Exo2-Bold"
+    E.db["general"]["altPowerBar"]["fontOutline"] = "NONE"
+    E.db["general"]["altPowerBar"]["height"] = 25
+    E.db["general"]["altPowerBar"]["statusBarColor"]["b"] = 0.67450980392157
+    E.db["general"]["altPowerBar"]["statusBarColor"]["g"] = 0.50588235294118
+    E.db["general"]["altPowerBar"]["statusBarColor"]["r"] = 0.36862745098039
+    E.db["general"]["altPowerBar"]["width"] = 400
 
     E.db["general"]["autoTrackReputation"] = true
     E.db["general"]["backdropcolor"]["b"] = 0.3843137254902
@@ -40,9 +37,10 @@ function NoobTacoUIv2:SetupGeneral()
     E.db["general"]["font"] = "Dosis-Bold"
     E.db["general"]["fontSize"] = 14
     E.db["general"]["interruptAnnounce"] = "RAID"
+    E.db["general"]["itemLevel"]["itemLevelFont"] = "Exo2-Bold"
     E.db["general"]["minimap"]["locationFont"] = "Exo2-Bold"
     E.db["general"]["minimap"]["locationFontSize"] = 14
-    E.db["general"]["minimap"]["size"] = 190
+    E.db["general"]["minimap"]["size"] = 220
     E.db["general"]["objectiveFrameHeight"] = 400
     E.db["general"]["resurrectSound"] = true
     E.db["general"]["talkingHeadFrameBackdrop"] = true
