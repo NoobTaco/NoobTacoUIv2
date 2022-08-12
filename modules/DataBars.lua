@@ -1,17 +1,17 @@
 local NoobTacoUIv2, E, L, V, P, G = unpack(select(2, ...))
 
 function NoobTacoUIv2:SetupDatabars()
-    -- if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then -- Retail
-    --     E.db["databars"]["honor"]["enable"] = false
-    --     E.db["databars"]["colors"]["quest"]["a"] = 0.99000000022352
-    --     E.db["databars"]["colors"]["quest"]["r"] = 0.27450980392157
-    --     E.db["databars"]["colors"]["quest"]["g"] = 0.74509803921569
-    --     E.db["databars"]["colors"]["quest"]["b"] = 0.33725490196078
-    --     E.db["databars"]["azerite"]["orientation"] = "VERTICAL"
-    --     E.db["databars"]["azerite"]["height"] = 247
-    --     E.db["databars"]["azerite"]["enable"] = false
-    --     E.db["databars"]["azerite"]["width"] = 12
-    -- end
+    if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then -- Retail
+        E.db["databars"]["honor"]["enable"] = false
+        E.db["databars"]["colors"]["quest"]["a"] = 0.99000000022352
+        E.db["databars"]["colors"]["quest"]["r"] = 0.27450980392157
+        E.db["databars"]["colors"]["quest"]["g"] = 0.74509803921569
+        E.db["databars"]["colors"]["quest"]["b"] = 0.33725490196078
+        E.db["databars"]["azerite"]["orientation"] = "VERTICAL"
+        E.db["databars"]["azerite"]["height"] = 247
+        E.db["databars"]["azerite"]["enable"] = false
+        E.db["databars"]["azerite"]["width"] = 12
+    end
 
     -- -- DATATEXT ------------------------------------------------------------------
     -- E.db["datatexts"]["font"] = "Exo2-Medium"

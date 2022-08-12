@@ -50,7 +50,7 @@ function NoobTacoUIv2:SetupActionBars()
     -- Right Actionbar Cluster - BottomRight
     E.db["actionbar"]["bar5"]["enabled"] = true
     E.db["actionbar"]["bar5"]["buttons"] = 12
-    E.db["actionbar"]["bar2"]["mouseover"] = true
+    E.db["actionbar"]["bar5"]["mouseover"] = true
     E.db["actionbar"]["bar5"]["buttonsPerRow"] = 6
     E.db["actionbar"]["bar5"]["buttonSize"] = 25
     E.db["actionbar"]["bar5"]["inheritGlobalFade"] = true
@@ -107,11 +107,12 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["transparent"] = true
     E.db["actionbar"]["addNewSpells"] = true
     E.db["actionbar"]["stanceBar"]["buttonSize"] = 25
-    E.db["actionbar"]["stanceBar"]["buttonsPerRow"] = 1
+    E.db["actionbar"]["stanceBar"]["buttonsPerRow"] = 10
     E.db["actionbar"]["stanceBar"]["hotkeyFont"] = "Exo2-Medium"
     E.db["actionbar"]["stanceBar"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["stanceBar"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["stanceBar"]["hotkeyTextXOffset"] = -2
+    E.db["actionbar"]["stanceBar"]["style"] = "classic"
     E.db["actionbar"]["barPet"]["buttonsPerRow"] = 10
     E.db["actionbar"]["barPet"]["buttonSize"] = 25
     E.db["actionbar"]["barPet"]["point"] = "TOPLEFT"
