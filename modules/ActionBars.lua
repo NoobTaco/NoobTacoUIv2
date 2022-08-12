@@ -106,19 +106,20 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["usableColor"]["b"] = 0.95686274509804
     E.db["actionbar"]["transparent"] = true
     E.db["actionbar"]["addNewSpells"] = true
-    E.db["actionbar"]["stanceBar"]["buttonSize"] = 25
+    E.db["actionbar"]["stanceBar"]["buttonSize"] = 30
     E.db["actionbar"]["stanceBar"]["buttonsPerRow"] = 10
     E.db["actionbar"]["stanceBar"]["hotkeyFont"] = "Exo2-Medium"
     E.db["actionbar"]["stanceBar"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["stanceBar"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["stanceBar"]["hotkeyTextXOffset"] = -2
     E.db["actionbar"]["stanceBar"]["style"] = "classic"
+    E.db["actionbar"]["barPet"]["backdrop"] = false
+    E.db["actionbar"]["barPet"]["buttonSize"] = 30
     E.db["actionbar"]["barPet"]["buttonsPerRow"] = 10
-    E.db["actionbar"]["barPet"]["buttonSize"] = 25
-    E.db["actionbar"]["barPet"]["point"] = "TOPLEFT"
-    E.db["actionbar"]["barPet"]["hotkeyFont"] = "Exo2-Medium"
     E.db["actionbar"]["barPet"]["countFont"] = "Exo2-Medium"
+    E.db["actionbar"]["barPet"]["hotkeyFont"] = "Exo2-Medium"
     E.db["actionbar"]["barPet"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["barPet"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["barPet"]["hotkeyTextXOffset"] = -2
+    E.db["actionbar"]["barPet"]["point"] = "TOPLEFT"
 end

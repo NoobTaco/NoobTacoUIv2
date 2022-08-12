@@ -56,8 +56,8 @@ function NoobTacoUIv2:SetupMovers()
     E.db["movers"]["NB_LocationLiteMover"] = "TOP,ElvUIParent,TOP,0,0"
     E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-61,-251"
     E.db["movers"]["OzCooldownsMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,425"
-    E.db["movers"]["PetAB"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,67,429"
-    E.db["movers"]["PetExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-240,150"
+    E.db["movers"]["PetAB"] = "TOPLEFT,UIParent,TOPLEFT,4,-4"
+    E.db["movers"]["PetExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-215,228"
     E.db["movers"]["QuestTimerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-523,-304"
     E.db["movers"]["RaidMarkerBarAnchor"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,223"
     E.db["movers"]["RaidUtility_Mover"] = "TOPLEFT,ElvUIParent,TOPLEFT,459,-4"
@@ -77,5 +77,5 @@ function NoobTacoUIv2:SetupMovers()
     E.db["movers"]["VehicleSeatMover"] = "TOP,ElvUIParent,TOP,254,-5"
     E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-453,373"
     -- Stance Bar?
-    E.db["movers"]["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,-310,4"
+    E.db["movers"]["ShiftAB"] = "TOPLEFT,UIParent,TOPLEFT,4,-4"
 end
