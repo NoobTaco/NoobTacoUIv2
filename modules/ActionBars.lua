@@ -64,19 +64,20 @@ function NoobTacoUIv2:SetupActionBars()
     E.db["actionbar"]["bar5"]["hotkeyTextXOffset"] = -2
     E.db["actionbar"]["bar5"]["buttonSpacing"] = 2
 
-    E.db["actionbar"]["bar2"]["enabled"] = true
-    E.db["actionbar"]["bar2"]["buttons"] = 12
-    E.db["actionbar"]["bar2"]["mouseover"] = true
-    E.db["actionbar"]["bar2"]["inheritGlobalFade"] = true
     E.db["actionbar"]["bar2"]["backdrop"] = true
-    E.db["actionbar"]["bar2"]["buttonsPerRow"] = 2
+    E.db["actionbar"]["bar2"]["buttons"] = 12
     E.db["actionbar"]["bar2"]["buttonSize"] = 25
-    E.db["actionbar"]["bar2"]["hotkeyFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar2"]["buttonSpacing"] = 1
+    E.db["actionbar"]["bar2"]["buttonsPerRow"] = 12
     E.db["actionbar"]["bar2"]["countFont"] = "Exo2-Medium"
-    E.db["actionbar"]["bar2"]["macroFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar2"]["enabled"] = true
+    E.db["actionbar"]["bar2"]["hotkeyFont"] = "Exo2-Medium"
     E.db["actionbar"]["bar2"]["hotkeyFontOutline"] = "NONE"
     E.db["actionbar"]["bar2"]["hotkeyFontSize"] = 9
     E.db["actionbar"]["bar2"]["hotkeyTextXOffset"] = -2
+    E.db["actionbar"]["bar2"]["inheritGlobalFade"] = true
+    E.db["actionbar"]["bar2"]["macroFont"] = "Exo2-Medium"
+    E.db["actionbar"]["bar2"]["mouseover"] = true
 
     -- Disabled Actionbars
     E.db["actionbar"]["bar4"]["enabled"] = false

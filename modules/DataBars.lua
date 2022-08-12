@@ -19,7 +19,7 @@ function NoobTacoUIv2:SetupDatabars()
     E.db["databars"]["colors"]["rested"]["g"] = 0.29803921568627
     E.db["databars"]["colors"]["rested"]["r"] = 0.70588235294118
     E.db["databars"]["experience"]["font"] = "Exo2-Bold"
-    E.db["databars"]["experience"]["height"] = 18
+    E.db["databars"]["experience"]["height"] = 17
     E.db["databars"]["experience"]["hideAtMaxLevel"] = true
     E.db["databars"]["experience"]["orientation"] = "HORIZONTAL"
     E.db["databars"]["experience"]["questCompletedOnly"] = true
