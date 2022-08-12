@@ -14,7 +14,6 @@
 ## X-Curse-Project-ID: 
 ## X-Wago-ID: 
 
-Libraries\Load_Libraries.xml
 Media\Load_Media.xml
 Code.lua
 modules\load_modules.xml

@@ -7,9 +7,13 @@ function NoobTacoUIv2:SetupBags()
     E.db["bags"]["bankSize"] = 40
     E.db["bags"]["bankWidth"] = 692
     E.db["bags"]["clearSearchOnClose"] = true
-    E.db["bags"]["countFont"] = "Exo2-Medium"
+    E.db["bags"]["countFont"] = "Exo2-Bold"
+    E.db["bags"]["countFontOutline"] = "OUTLINE"
     E.db["bags"]["countFontSize"] = 14
-    E.db["bags"]["itemLevelFont"] = "Exo2-Medium"
+    E.db["bags"]["itemInfoFont"] = "Exo2-Bold"
+    E.db["bags"]["itemInfoFontOutline"] = "OUTLINE"
+    E.db["bags"]["itemLevelCustomColorEnable"] = true
+    E.db["bags"]["itemLevelFont"] = "Exo2-Bold"
     E.db["bags"]["itemLevelFontOutline"] = "OUTLINE"
     E.db["bags"]["itemLevelFontSize"] = 14
     E.db["bags"]["junkDesaturate"] = true

@@ -104,8 +104,6 @@ local function InstallComplete()
     -- Set a variable tracking the version of the addon when layout was installed
     E.db[MyPluginName].install_version = Version
 
-    -- Set the key for Overlay
-    E.db[MyPluginName].overlay = true
     ReloadUI()
 end
 
@@ -173,22 +171,6 @@ local InstallerData = {
             end)
             PluginInstallFrame.Option1:SetText("Set Layout")
         end,
-        -- [4] = function()
-        --     PluginInstallFrame.SubTitle:SetText("Layouts")
-        --     PluginInstallFrame.Desc1:SetText(
-        --         "These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
-        --     PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
-        --     PluginInstallFrame.Option1:Show()
-        --     PluginInstallFrame.Option1:SetScript("OnClick", function()
-        --         NoobTacoUIv2:SetupUnitFrames("v1")
-        --     end)
-        --     PluginInstallFrame.Option1:SetText("DPS or Tank")
-        --     PluginInstallFrame.Option2:Show()
-        --     PluginInstallFrame.Option2:SetScript("OnClick", function()
-        --         NoobTacoUIv2:SetupUnitFrames("v2")
-        --     end)
-        --     PluginInstallFrame.Option2:SetText("Healer")
-        -- end,
         [4] = function()
             PluginInstallFrame.SubTitle:SetText("Installation Complete")
             PluginInstallFrame.Desc1:SetText(
@@ -244,43 +226,23 @@ local function InsertOptions()
                 type = "description",
                 name = "\n\n\n"
             },
-            header2 = {
-                order = 4,
-                type = "header",
-                name = "Options"
-            },
-            general = {
-                order = 5,
-                type = "group",
-                -- name = MER:cOption(L["General"]),
-                name = "General",
-                guiInline = true,
-                args = {
-                    overlay = {
-                        order = 1,
-                        type = "toggle",
-                        name = L["Elite Overlay"],
-                        desc = L["Disable/Enable the elite dragon overlay for the target."]
-                    }
-                }
-            },
             header3 = {
-                order = 6,
+                order = 4,
                 type = "header",
                 name = "Installation"
             },
             description2 = {
-                order = 7,
+                order = 5,
                 type = "description",
                 name = "The installation guide should pop up automatically after you have completed the ElvUI installation. If you wish to re-run the installation process for this layout then please click the button below."
             },
             spacer2 = {
-                order = 8,
+                order = 6,
                 type = "description",
                 name = ""
             },
             install = {
-                order = 9,
+                order = 7,
                 type = "execute",
                 name = "Install",
                 desc = "Run the installation process.",
