@@ -2,7 +2,7 @@ local SimpleRareElite = CreateFrame("Frame", "SimpleRareElite", UIParent)
 local TargetFrame
 
 -- Change this line and use a unique name for your plugin.
-local MyPluginName = "|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r"
+local MyPluginName = "|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|rV2"
 
 -- Create references to ElvUI internals
 local E = unpack(ElvUI)

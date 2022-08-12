@@ -9,7 +9,7 @@ local ReloadUI = ReloadUI
 local StopMusic = StopMusic
 
 -- Change this line and use a unique name for your plugin.
-local MyPluginName = "|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r V2"
+local MyPluginName = "|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|rV2"
 
 -- Create references to ElvUI internals
 local E, L, V, P, G = unpack(ElvUI)
@@ -173,23 +173,23 @@ local InstallerData = {
             end)
             PluginInstallFrame.Option1:SetText("Set Layout")
         end,
+        -- [4] = function()
+        --     PluginInstallFrame.SubTitle:SetText("Layouts")
+        --     PluginInstallFrame.Desc1:SetText(
+        --         "These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
+        --     PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
+        --     PluginInstallFrame.Option1:Show()
+        --     PluginInstallFrame.Option1:SetScript("OnClick", function()
+        --         NoobTacoUIv2:SetupUnitFrames("v1")
+        --     end)
+        --     PluginInstallFrame.Option1:SetText("DPS or Tank")
+        --     PluginInstallFrame.Option2:Show()
+        --     PluginInstallFrame.Option2:SetScript("OnClick", function()
+        --         NoobTacoUIv2:SetupUnitFrames("v2")
+        --     end)
+        --     PluginInstallFrame.Option2:SetText("Healer")
+        -- end,
         [4] = function()
-            PluginInstallFrame.SubTitle:SetText("Layouts")
-            PluginInstallFrame.Desc1:SetText(
-                "These are the layouts that are available. Please click a button below to apply the layout of your choosing.")
-            PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
-            PluginInstallFrame.Option1:Show()
-            PluginInstallFrame.Option1:SetScript("OnClick", function()
-                NoobTacoUIv2:SetupUnitFrames("v1")
-            end)
-            PluginInstallFrame.Option1:SetText("DPS or Tank")
-            PluginInstallFrame.Option2:Show()
-            PluginInstallFrame.Option2:SetScript("OnClick", function()
-                NoobTacoUIv2:SetupUnitFrames("v2")
-            end)
-            PluginInstallFrame.Option2:SetText("Healer")
-        end,
-        [5] = function()
             PluginInstallFrame.SubTitle:SetText("Installation Complete")
             PluginInstallFrame.Desc1:SetText(
                 "You have completed the installation process.\nIf you need help or wish to report a bug, please go to http://tukui.org")
@@ -204,8 +204,8 @@ local InstallerData = {
         [1] = "Welcome",
         [2] = "Profiles",
         [3] = "General Layout",
-        [4] = "Layouts",
-        [5] = "Installation Complete"
+        -- [4] = "Layouts",
+        [4] = "Installation Complete"
 
     },
     StepTitlesColor = {1, 1, 1},
@@ -232,7 +232,7 @@ local function InsertOptions()
             header1 = {
                 order = 1,
                 type = "header",
-                name = format("|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r - Ver %s", Version)
+                name = format("|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|rv2 - Ver %s", Version)
             },
             description1 = {
                 order = 2,

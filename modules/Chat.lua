@@ -19,4 +19,7 @@ function NoobTacoUIv2:SetupChat()
     E.db["chat"]["tabSelectorColor"]["g"] = 0.75294117647059
     E.db["chat"]["tabSelectorColor"]["r"] = 0.53333333333333
     E.db["chat"]["useCustomTimeColor"] = false
+
+    -- Resets chat to default
+    FCF_ResetChatWindows()
 end
