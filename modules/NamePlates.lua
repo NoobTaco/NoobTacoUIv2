@@ -113,6 +113,7 @@ function NoobTacoUIv2:SetupNamePlates()
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["countFont"] = "Exo2-Bold"
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["countFontOutline"] = "NONE"
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["growthX"] = "RIGHT"
+    E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["numAuras"] = 8
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["priority"] =
         "Blacklist,Dispellable,blockNoDuration,Personal,CCDebuffs"
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["debuffs"]["size"] = 35

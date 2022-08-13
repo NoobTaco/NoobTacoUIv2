@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5]
+
+### Updated
+
+-   Enemy Player Nameplates fixed.
+-   Fixed custom texts showing
+
 ## [0.0.4]
 
 ### Updated
