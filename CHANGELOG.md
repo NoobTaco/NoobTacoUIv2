@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.6]
+
+### Updated
+
+-   Fixed the fix for the custom text
+
 ## [0.0.5]
 
 ### Updated
