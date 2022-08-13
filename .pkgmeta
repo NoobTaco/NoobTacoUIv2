@@ -7,9 +7,9 @@ ignore:
     - CHANGELOG.md
     - README.bbc
 
-# manual-changelog:
-#     filename: RECENT_CHANGES.md
-#     markup-type: markdown
+manual-changelog:
+    filename: RECENT_CHANGES.md
+    markup-type: markdown
 
 manual-changelog:
     filename: RECENT_CHANGES.html
