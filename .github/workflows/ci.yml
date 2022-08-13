@@ -25,20 +25,3 @@ jobs:
         uses: BigWigsMods/packager@v2
         with:
           args: -d
-
-      # - name: Package Classic
-      #   uses: BigWigsMods/packager@master
-      #   with:
-      #     args: -d -g classic
-
-      #   # package for burning crusade
-      # - name: Package for Burning Crusade
-      #   uses: BigWigsMods/packager@master
-      #   with:
-      #     args: -d -g bcc
-
-      #   # package for Wrath
-      # - name: Package for WOTLK
-      #   uses: BigWigsMods/packager@master
-      #   with:
-      #     args: -d -g wrath
