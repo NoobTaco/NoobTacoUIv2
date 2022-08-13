@@ -9,7 +9,7 @@ local ReloadUI = ReloadUI
 local StopMusic = StopMusic
 
 -- Change this line and use a unique name for your plugin.
-local MyPluginName = "|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|rV2"
+local MyPluginName = "|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r|cfffffb00v2|r"
 
 -- Create references to ElvUI internals
 local E, L, V, P, G = unpack(ElvUI)
@@ -110,9 +110,9 @@ end
 -- PLUGIN INSTALLER -----------------------------------------------------------------
 local InstallerData = {
     -- Title = format("|cff4beb2c%s %s|r", MyPluginName, "Installation - Ver: %d", Version),
-    Title = format("|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r |cff4beb2cInstallation|r %s", Version),
+    Title = format("|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r|cfffffb00v2|r |cff4beb2cInstallation|r %s", Version),
     Name = MyPluginName,
-    tutorialImage = "Interface\\AddOns\\NoobTacoUIv2\\Media\\Textures\\noobtaco.tga",
+    tutorialImage = "Interface\\AddOns\\NoobTacoUIv2\\Media\\Textures\\noobtacouiv2.tga",
     Pages = {
         [1] = function()
             PluginInstallFrame.SubTitle:SetFormattedText("Welcome to the installation for %s.", MyPluginName)
@@ -127,26 +127,10 @@ local InstallerData = {
         [2] = function()
             PluginInstallFrame.SubTitle:SetText("Profiles")
             PluginInstallFrame.Desc1:SetText(
-                "You can either create a new profile to install NoobTacoUIv2 onto or you can apply NoobTacoUIv2 settings to your current profile")
-            PluginInstallFrame.Desc3:SetText("Your currently active ElvUI profile is: |cffc41f3b" ..
-                                                 ElvUI[1].data:GetCurrentProfile() .. "|r")
-            PluginInstallFrame.Option1:Show()
-            PluginInstallFrame.Option1:SetScript("OnClick", function()
-                NewProfile(false)
-            end)
-            PluginInstallFrame.Option1:SetText("Use Current")
-            PluginInstallFrame.Option2:Show()
-            PluginInstallFrame.Option2:SetScript("OnClick", function()
-                NewProfile(true, "NoobTacoUIv2")
-            end)
-            PluginInstallFrame.Option2:SetText("Create New")
-
-            PluginInstallFrame.SubTitle:SetText("Profiles")
-            PluginInstallFrame.Desc1:SetText(
-                "Press \"Update Current\" to update your current profile with the new NoobTacoUIv2 changes.")
+                "Press \"Update Current\" to update your current profile with the new |cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r|cfffffb00v2|r changes.")
             PluginInstallFrame.Desc2:SetText(
                 "If you'd like to check out what the changes are, without overwriting your current settings, you can press \"Create New\"")
-            PluginInstallFrame.Desc3:SetText("Your currently active ElvUI profile is: |cffc41f3b" ..
+            PluginInstallFrame.Desc3:SetText("Your currently active ElvUI profile is: |cff88c0d0" ..
                                                  ElvUI[1].data:GetCurrentProfile() .. "|r")
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript("OnClick", function()
@@ -160,10 +144,11 @@ local InstallerData = {
             PluginInstallFrame.Option2:SetText("Create New")
         end,
         [3] = function()
-            PluginInstallFrame.SubTitle:SetText(L["General Layout of NoobTacoUIv2"])
-            PluginInstallFrame.Desc1:SetText(L["This is the recommended base layout for NoobTacoUIv2."])
+            PluginInstallFrame.SubTitle:SetText(L["General Layout of |cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r|cfffffb00v2|r"])
+            PluginInstallFrame.Desc1:SetText(
+                L["This is the recommended base layout for |cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r|cfffffb00v2|r."])
             PluginInstallFrame.Desc2:SetText(L["This will set some general settings for the layout installation"])
-            PluginInstallFrame.Desc3:SetFormattedText(L["Importance: |cffFF0000High|r"])
+            PluginInstallFrame.Desc3:SetFormattedText(L["Importance: |cff88c0d0High|r"])
 
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript('OnClick', function()
@@ -186,7 +171,6 @@ local InstallerData = {
         [1] = "Welcome",
         [2] = "Profiles",
         [3] = "General Layout",
-        -- [4] = "Layouts",
         [4] = "Installation Complete"
 
     },
@@ -214,7 +198,7 @@ local function InsertOptions()
             header1 = {
                 order = 1,
                 type = "header",
-                name = format("|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|rv2 - Ver %s", Version)
+                name = format("|cFF16C3F2NoobTaco|r|cFFFFFFFFUI|r|cfffffb00v2|r - Ver %s", Version)
             },
             description1 = {
                 order = 2,

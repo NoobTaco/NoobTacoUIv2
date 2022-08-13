@@ -2,23 +2,23 @@
 
 [![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/noobtaco/NoobTacoUIv2/CI?label=CI&logo=github&style=for-the-badge)](https://github.com/NoobTaco/NoobTacoUIv2/actions?query=workflow%3ACI) [![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/NoobTaco/NoobTacoUIv2/Release?logo=github&style=for-the-badge)](https://github.com/NoobTaco/NoobTacoUIv2/actions?query=workflow%3ARelease) [![GitHub All Releases](https://img.shields.io/github/downloads/NoobTaco/NoobTacoUIv2/total?logo=github&style=for-the-badge)](https://github.com/NoobTaco/NoobTacoUIv2/releases/latest)
 
-NoobTacoUIv2 is an ElvUI Profile that uses the [Nord Theme](https://www.nordtheme.com/) Color palette. The theme is dark, just not as dark as default ElvUI.
+NoobTacoUIv2 is an ElvUI Profile that is bassed off of NoobTacoUI. The theme is dark, just not as dark as default ElvUI or default NTUI. This theme uses one chat window instead of two and brightens several areas up giving you more screen space.
 
 **Supports:**
 
 -   Retail (Shadowlands)
--   Classic
--   Burning Crusade Classic
 -   Wrath of the Lich King Classic
+-   Burning Crusade Classic
+-   Classic Era
 
-No need to download separate installs for different versions. All game versions are now contained in one download.
+No need to download separate installs for different versions. All game versions are contained in one download.
 
 # Features
 
--   NoobTacoUIv2 is a dark theme based off of the popular Nord Theme. It is not as contrasty as the default profile in an attempt to reduce eye strain from prolonged WoW sessions.
--   Modern font's making it easier to read information text and game text.
--   Elite unitframe overlay. The default elite dragon fits perfectly with NoobTacoUIv2's target unitframe. _With option to toggle overlay_.
--   DPS/Tank and Healer profile setup.
+-   NoobTacoUIv2 is a mildly dark theme based off of the popular Nord Theme. It is not as contrasty as the default profile in an attempt to reduce eye strain from prolonged WoW sessions.
+-   It uses modern font's making it easier to read information and game text.
+-   Minimal look and feel with 2 actionbars showing. The theme is configured with 3 other actionbars that are revealed when you mouse over.
+-   Game minimenu is at the top center of the screen. Shown when moused over.
 
 ### Download from your favorite addon hosts
 

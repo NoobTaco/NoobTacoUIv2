@@ -17,11 +17,6 @@ LSM:Register("font", "Roboto-Bold", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\
 LSM:Register("font", "Roboto-Medium", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\Roboto-Medium.ttf]])
 LSM:Register("font", "Roboto-Regular", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\Roboto-Regular.ttf]])
 
--- Lato
-LSM:Register("font", "Lato-Black", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\Lato-Black.ttf]])
-LSM:Register("font", "Lato-Bold", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\Lato-Bold.ttf]])
-LSM:Register("font", "Lato-Regular", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\Lato-Regular.ttf]])
-
 -- Dosis
 LSM:Register("font", "Dosis-Bold", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\Dosis-Bold.ttf]])
 LSM:Register("font", "Dosis-ExtraBold", [[Interface\AddOns\NoobTacoUIv2\Media\Fonts\Dosis-ExtraBold.ttf]])
