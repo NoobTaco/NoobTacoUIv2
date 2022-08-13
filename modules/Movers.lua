@@ -1,6 +1,12 @@
 local NoobTacoUIv2, E, L, V, P, G = unpack(select(2, ...))
 
 function NoobTacoUIv2:SetupMovers()
+
+    -- -- Fix Movers ??
+    if E.db["movers"] == nil then
+        E.db["movers"] = {}
+    end
+
     -- MOVERS -----------------------------------------------------------------
 
     E.db["movers"]["AlertFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-530,-242"
