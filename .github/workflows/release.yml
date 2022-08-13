@@ -15,16 +15,23 @@ jobs:
         with:
           args: -q --ignore 113 631 211 212 112 311
 
-      - name: "Generate recent changes"
+      - name: Generate recent changes
         uses: kemayo/actions-recent-changelog@v1
         with:
           input: CHANGELOG.md
           output: RECENT_CHANGES.md
 
+      - name: Converts Changelog to HTML
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+          source: RECENT_CHANGES.md
+          output: RECENT_CHANGES.html
+          github-corners: https://github.com/jaywcjlove/markdown-to-html-cli
+
       - name: Package and release
         uses: BigWigsMods/packager@v2
         env:
-          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          # CF_API_KEY: ${{ secrets.CF_API_KEY }}
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
-          WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
-          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          # WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
+          # WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
