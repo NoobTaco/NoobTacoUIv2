@@ -2,20 +2,6 @@ local NoobTacoUIv2, E, L, V, P, G = unpack(select(2, ...))
 
 function NoobTacoUIv2:SetupLayout()
 
-    E.db["unitframe"]["units"]["player"]["customTexts"]["PlayerHealth"] = {}
-    E.db["unitframe"]["units"]["player"]["customTexts"]["PlayerName"] = {}
-    E.db["unitframe"]["units"]["player"]["customTexts"]["PlayerPower"] = {}
-    E.db["unitframe"]["units"]["focus"]["customTexts"]["TargetHealth"] = {}
-    E.db["unitframe"]["units"]["focus"]["customTexts"]["TargetLevel"] = {}
-    E.db["unitframe"]["units"]["focus"]["customTexts"]["TargetName"] = {}
-    E.db["unitframe"]["units"]["focus"]["customTexts"]["TargetPower"] = {}
-    E.db["unitframe"]["units"]["pet"]["customTexts"]["Pet Health"] = {}
-    E.db["unitframe"]["units"]["target"]["customTexts"]["TargetHealth"] = {}
-    E.db["unitframe"]["units"]["target"]["customTexts"]["TargetPower"] = {}
-    E.db["unitframe"]["units"]["target"]["customTexts"]["TargetName"] = {}
-    E.db["unitframe"]["units"]["target"]["customTexts"]["TargetLevel"] = {}
-    E.db["unitframe"]["units"]["targettarget"]["customTexts"]["TargetTargetName"] = {}
-
     -- Extra Options not Exported by base profile
 
     E.db["unitframe"]["units"]["target"]["infoPanel"]["enable"] = false
