@@ -38,6 +38,7 @@ function NoobTacoUIv2:SetupGeneral()
     E.db["general"]["fontSize"] = 14
     E.db["general"]["interruptAnnounce"] = "RAID"
     E.db["general"]["itemLevel"]["itemLevelFont"] = "Exo2-Bold"
+    E.db["general"]["lootRoll"]["nameFont"] = "Exo2-Bold"
     E.db["general"]["minimap"]["locationFont"] = "Exo2-Bold"
     E.db["general"]["minimap"]["locationFontSize"] = 14
     E.db["general"]["minimap"]["size"] = 220

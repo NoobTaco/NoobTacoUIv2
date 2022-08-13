@@ -54,12 +54,12 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["player"]["name"]["text_format"] =
         "[name:medium] [difficultycolor] [level] [shortclassification]"
     E.db["unitframe"]["units"]["player"]["name"]["yOffset"] = 20
-    E.db["unitframe"]["units"]["player"]["portrait"]["camDistanceScale"] = 1.8
+    E.db["unitframe"]["units"]["player"]["portrait"]["camDistanceScale"] = 1
     E.db["unitframe"]["units"]["player"]["portrait"]["desaturation"] = 1
     E.db["unitframe"]["units"]["player"]["portrait"]["enable"] = true
-    E.db["unitframe"]["units"]["player"]["portrait"]["fullOverlay"] = true
+    E.db["unitframe"]["units"]["player"]["portrait"]["fullOverlay"] = false
     E.db["unitframe"]["units"]["player"]["portrait"]["overlay"] = true
-    E.db["unitframe"]["units"]["player"]["portrait"]["overlayAlpha"] = 0.25
+    E.db["unitframe"]["units"]["player"]["portrait"]["overlayAlpha"] = 0.4
     E.db["unitframe"]["units"]["player"]["portrait"]["width"] = 55
     E.db["unitframe"]["units"]["player"]["power"]["EnergyManaRegen"] = true
     E.db["unitframe"]["units"]["player"]["power"]["attachTextTo"] = "Power"
@@ -69,11 +69,12 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["player"]["power"]["position"] = "CENTER"
     E.db["unitframe"]["units"]["player"]["power"]["text_format"] = "[power:current]"
     E.db["unitframe"]["units"]["player"]["power"]["xOffset"] = 0
-    E.db["unitframe"]["units"]["player"]["pvpIcon"]["anchorPoint"] = "TOPLEFT"
+    E.db["unitframe"]["units"]["player"]["pvpIcon"]["anchorPoint"] = "LEFT"
     E.db["unitframe"]["units"]["player"]["pvpIcon"]["enable"] = true
     E.db["unitframe"]["units"]["player"]["pvpIcon"]["scale"] = 1.5
-    E.db["unitframe"]["units"]["player"]["pvpIcon"]["xOffset"] = -75
-    E.db["unitframe"]["units"]["player"]["pvpIcon"]["yOffset"] = 27
+    E.db["unitframe"]["units"]["player"]["pvpIcon"]["xOffset"] = -22
+    E.db["unitframe"]["units"]["player"]["pvpIcon"]["yOffset"] = 0
+    E.db["unitframe"]["units"]["player"]["pvp"]["text_format"] = "||cff88c0d0[pvptimer]||r"
     E.db["unitframe"]["units"]["player"]["width"] = 200
 
     E.db["unitframe"]["units"]["focus"]["CombatIcon"]["anchorPoint"] = "BOTTOMLEFT"
@@ -119,12 +120,12 @@ function NoobTacoUIv2:SetupLayout()
         "[difficultycolor][level][shortclassification] ||cffFFFFFF[name]||r [classification:icon]"
     E.db["unitframe"]["units"]["focus"]["name"]["yOffset"] = 20
     E.db["unitframe"]["units"]["focus"]["orientation"] = "LEFT"
-    E.db["unitframe"]["units"]["focus"]["portrait"]["camDistanceScale"] = 1.8
+    E.db["unitframe"]["units"]["focus"]["portrait"]["camDistanceScale"] = 1
     E.db["unitframe"]["units"]["focus"]["portrait"]["desaturation"] = 1
     E.db["unitframe"]["units"]["focus"]["portrait"]["enable"] = true
-    E.db["unitframe"]["units"]["focus"]["portrait"]["fullOverlay"] = true
+    E.db["unitframe"]["units"]["focus"]["portrait"]["fullOverlay"] = false
     E.db["unitframe"]["units"]["focus"]["portrait"]["overlay"] = true
-    E.db["unitframe"]["units"]["focus"]["portrait"]["overlayAlpha"] = 0.25
+    E.db["unitframe"]["units"]["focus"]["portrait"]["overlayAlpha"] = 0.4
     E.db["unitframe"]["units"]["focus"]["portrait"]["width"] = 55
     E.db["unitframe"]["units"]["focus"]["power"]["attachTextTo"] = "Power"
     E.db["unitframe"]["units"]["focus"]["power"]["detachFromFrame"] = true
@@ -205,6 +206,7 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["target"]["CombatIcon"]["size"] = 60
     E.db["unitframe"]["units"]["target"]["CombatIcon"]["xOffset"] = -55
     E.db["unitframe"]["units"]["target"]["CombatIcon"]["yOffset"] = -20
+    E.db["unitframe"]["units"]["target"]["CombatIcon"]["enable"] = false
     E.db["unitframe"]["units"]["target"]["buffs"]["countFont"] = "Exo2-Bold"
     E.db["unitframe"]["units"]["target"]["buffs"]["priority"] =
         "Blacklist,Personal,PlayerBuffs,Whitelist,blockNoDuration,nonPersonal"
@@ -241,12 +243,12 @@ function NoobTacoUIv2:SetupLayout()
         "[difficultycolor][level][shortclassification] ||cffFFFFFF[name]||r [classification:icon]"
     E.db["unitframe"]["units"]["target"]["name"]["yOffset"] = 20
     E.db["unitframe"]["units"]["target"]["orientation"] = "LEFT"
-    E.db["unitframe"]["units"]["target"]["portrait"]["camDistanceScale"] = 1.8
+    E.db["unitframe"]["units"]["target"]["portrait"]["camDistanceScale"] = 1
     E.db["unitframe"]["units"]["target"]["portrait"]["desaturation"] = 1
     E.db["unitframe"]["units"]["target"]["portrait"]["enable"] = true
-    E.db["unitframe"]["units"]["target"]["portrait"]["fullOverlay"] = true
+    E.db["unitframe"]["units"]["target"]["portrait"]["fullOverlay"] = false
     E.db["unitframe"]["units"]["target"]["portrait"]["overlay"] = true
-    E.db["unitframe"]["units"]["target"]["portrait"]["overlayAlpha"] = 0.25
+    E.db["unitframe"]["units"]["target"]["portrait"]["overlayAlpha"] = 0.4
     E.db["unitframe"]["units"]["target"]["portrait"]["width"] = 55
     E.db["unitframe"]["units"]["target"]["power"]["attachTextTo"] = "Power"
     E.db["unitframe"]["units"]["target"]["power"]["detachFromFrame"] = true
@@ -255,11 +257,11 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["target"]["power"]["position"] = "CENTER"
     E.db["unitframe"]["units"]["target"]["power"]["text_format"] = "[power:current]"
     E.db["unitframe"]["units"]["target"]["power"]["xOffset"] = 0
-    E.db["unitframe"]["units"]["target"]["pvpIcon"]["anchorPoint"] = "TOPLEFT"
+    E.db["unitframe"]["units"]["target"]["pvpIcon"]["anchorPoint"] = "RIGHT"
     E.db["unitframe"]["units"]["target"]["pvpIcon"]["enable"] = true
     E.db["unitframe"]["units"]["target"]["pvpIcon"]["scale"] = 1.5
-    E.db["unitframe"]["units"]["target"]["pvpIcon"]["xOffset"] = -75
-    E.db["unitframe"]["units"]["target"]["pvpIcon"]["yOffset"] = 27
+    E.db["unitframe"]["units"]["target"]["pvpIcon"]["xOffset"] = 22
+    E.db["unitframe"]["units"]["target"]["pvpIcon"]["yOffset"] = 0
     E.db["unitframe"]["units"]["target"]["width"] = 200
 
     E.db["unitframe"]["smartRaidFilter"] = false
