@@ -2,31 +2,29 @@
 
 [![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/noobtaco/NoobTacoUIv2/CI?label=CI&logo=github&style=for-the-badge)](https://github.com/NoobTaco/NoobTacoUIv2/actions?query=workflow%3ACI) [![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/NoobTaco/NoobTacoUIv2/Release?logo=github&style=for-the-badge)](https://github.com/NoobTaco/NoobTacoUIv2/actions?query=workflow%3ARelease) [![GitHub All Releases](https://img.shields.io/github/downloads/NoobTaco/NoobTacoUIv2/total?logo=github&style=for-the-badge)](https://github.com/NoobTaco/NoobTacoUIv2/releases/latest)
 
-NoobTacoUIv2 is an ElvUI Profile that uses the [Nord Theme](https://www.nordtheme.com/) Color palette. The theme is dark, just not as dark as default ElvUI.
+NoobTacoUIv2 is an ElvUI Profile that is based off NoobTacoUI. The theme is dark, just not as dark as default ElvUI or default NTUI. This theme uses one chat window instead of two and brightens several areas up giving you more screen space.
 
 **Supports:**
 
 -   Retail (Shadowlands)
--   Classic
--   Burning Crusade Classic
 -   Wrath of the Lich King Classic
+-   Burning Crusade Classic
+-   Classic Era
 
-No need to download separate installs for different versions. All game versions are now contained in one download.
+No need to download separate installs for different versions. All game versions are contained in one download.
 
 # Features
 
--   NoobTacoUIv2 is a dark theme based off of the popular Nord Theme. It is not as contrasty as the default profile in an attempt to reduce eye strain from prolonged WoW sessions.
--   Modern font's making it easier to read information text and game text.
--   Elite unitframe overlay. The default elite dragon fits perfectly with NoobTacoUIv2's target unitframe. _With option to toggle overlay_.
--   DPS/Tank and Healer profile setup.
+-   NoobTacoUIv2 is a mildly dark theme based off the popular Nord Theme. It is not as contrasty as the default profile to reduce eye strain from prolonged WoW sessions.
+-   It uses modern fonts making it easier to read information and game text.
+-   Minimal look and feel with two action bars showing. The theme is configured with three other action bars that are revealed when you mouse over.
+-   Game mini menu is at the top center of the screen. Shown when moused over.
 
 ### Download from your favorite addon hosts
 
 -   [GitHub](https://github.com/NoobTaco/NoobTacoUIv2/releases/latest)
--   [Curse/Overwolf](https://www.curseforge.com/wow/addons/NoobTacoUIv2)
--   [Wago.io](https://addons.wago.io/addons/NoobTacoUIv2)
--   [WoW Interface](https://www.wowinterface.com/downloads/info25744-NoobTacoUIv2.html)
--   [TukUI](https://www.tukui.org/addons.php?id=187)
+-   [Curse/Overwolf](https://www.curseforge.com/wow/addons/noobtacouiv2)
+-   [Wago.io](https://addons.wago.io/addons/noobtacouiv2)
 
 Feel free to use any of the supported download managers.
 
@@ -53,26 +51,16 @@ If you find a bug or would like to request a feature, please fill out an issue o
 
 # Images
 
-![image](https://user-images.githubusercontent.com/1172935/98390782-b1d1a380-200a-11eb-901c-9c772adc8987.png)
+![WoWScrnShot_081322_095705](https://user-images.githubusercontent.com/1172935/184504212-c9d7eb1b-a166-4450-9046-b14c06e01b54.jpg)
 
-![image](https://user-images.githubusercontent.com/1172935/98391018-f78e6c00-200a-11eb-971b-88969775d12c.png)
+![WoWScrnShot_081322_095552](https://user-images.githubusercontent.com/1172935/184504114-4e90f55a-cee7-4d74-b484-a0850921c0c1.jpg)
 
-### Nord Theme Colors
+![WoWScrnShot_081322_100516](https://user-images.githubusercontent.com/1172935/184504227-00c782e5-2906-41b7-84a8-65e16154cbd9.jpg)
 
-![image](https://user-images.githubusercontent.com/1172935/98390923-d7f74380-200a-11eb-9e62-cdfdedd168b0.png)
+![WoWScrnShot_081322_100711](https://user-images.githubusercontent.com/1172935/184504234-cb8a2234-db90-4751-a5dd-755274690e86.jpg)
 
-#### Healing 25 man layout
-
-![image](https://user-images.githubusercontent.com/1172935/98392199-86e84f00-200c-11eb-9504-0d04fc4bb902.png)
-
-#### Healing 40 man layout
-
-![image](https://user-images.githubusercontent.com/1172935/98391578-acc12400-200b-11eb-93f8-cdc7a4e05a7b.png)
-
-#### NobTacoUI Settings
-
-![image](https://user-images.githubusercontent.com/1172935/98392414-d2026200-200c-11eb-9d42-8f49597056bd.png)
+![WoWScrnShot_081322_101020](https://user-images.githubusercontent.com/1172935/184504248-1fc865d7-622f-4159-b4b7-b14428ee7d18.jpg)
 
 #### Memory usage
 
-![image](https://user-images.githubusercontent.com/1172935/98391292-4cca7d80-200b-11eb-8c8b-a247487d85e4.png)
+![WoWScrnShot_081322_095732](https://user-images.githubusercontent.com/1172935/184504412-2e38d38e-f4aa-45e5-b2f4-5274e2487134.jpg)

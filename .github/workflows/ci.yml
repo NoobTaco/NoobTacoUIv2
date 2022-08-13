@@ -8,37 +8,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
       - name: Run luacheck
         uses: BigWigsMods/actions/luacheck@master
         with:
           args: -q --ignore 113 631 211 212 112 311
 
-      - name: "Generate recent changes"
+      - name: Generate recent changes
         uses: kemayo/actions-recent-changelog@v1
         with:
           input: CHANGELOG.md
           output: RECENT_CHANGES.md
 
-      - name: Package Retail
-        uses: BigWigsMods/packager@master
+      - name: Package and release
+        uses: BigWigsMods/packager@v2
         with:
           args: -d
-
-      # - name: Package Classic
-      #   uses: BigWigsMods/packager@master
-      #   with:
-      #     args: -d -g classic
-
-      #   # package for burning crusade
-      # - name: Package for Burning Crusade
-      #   uses: BigWigsMods/packager@master
-      #   with:
-      #     args: -d -g bcc
-
-      #   # package for Wrath
-      # - name: Package for WOTLK
-      #   uses: BigWigsMods/packager@master
-      #   with:
-      #     args: -d -g wrath
