@@ -21,12 +21,6 @@ jobs:
           input: CHANGELOG.md
           output: RECENT_CHANGES.md
 
-      - name: Converts Changelog to HTML
-        uses: jaywcjlove/markdown-to-html-cli@main
-        with:
-          source: RECENT_CHANGES.md
-          output: RECENT_CHANGES.html
-
       - name: Package and release
         uses: BigWigsMods/packager@v2
         with:

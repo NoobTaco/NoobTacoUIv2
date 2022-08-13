@@ -10,7 +10,3 @@ ignore:
 manual-changelog:
     filename: RECENT_CHANGES.md
     markup-type: markdown
-
-manual-changelog:
-    filename: RECENT_CHANGES.html
-    markup-type: html
