@@ -139,6 +139,7 @@ function NoobTacoUIv2:SetupNamePlates()
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["power"]["height"] = 5
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["power"]["hideWhenEmpty"] = true
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["power"]["yOffset"] = -11
+    E.db["nameplates"]["units"]["ENEMY_PLAYER"]["portrait"]["enable"] = false
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["raidTargetIndicator"]["size"] = 30
     E.db["nameplates"]["units"]["ENEMY_PLAYER"]["title"]["format"] = "[guild]"
     E.db["nameplates"]["units"]["FRIENDLY_NPC"]["buffs"]["countFont"] = "Exo2-Bold"
