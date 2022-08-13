@@ -7,7 +7,6 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["player"]["infoPanel"]["enable"] = false
     E.db["unitframe"]["units"]["target"]["orientation"] = "RIGHT"
 
-    E.db["unitframe"]["font"] = "Exo2-Bold"
     E.db["unitframe"]["fontOutline"] = "NONE"
     E.db["unitframe"]["fontSize"] = 13
 
@@ -22,7 +21,6 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["player"]["RestIcon"]["texture"] = "Resting0"
     E.db["unitframe"]["units"]["player"]["RestIcon"]["xOffset"] = -1
     E.db["unitframe"]["units"]["player"]["RestIcon"]["yOffset"] = 28
-    E.db["unitframe"]["units"]["player"]["aurabar"]["enable"] = false
     E.db["unitframe"]["units"]["player"]["buffs"]["anchorPoint"] = "TOPRIGHT"
     E.db["unitframe"]["units"]["player"]["buffs"]["attachTo"] = "FRAME"
     E.db["unitframe"]["units"]["player"]["buffs"]["countFont"] = "Exo2-Bold"
@@ -164,12 +162,12 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["party"]["horizontalSpacing"] = 2
     E.db["unitframe"]["units"]["party"]["debuffs"]["anchorPoint"] = "TOP"
     E.db["unitframe"]["units"]["party"]["debuffs"]["clickThrough"] = true
-    E.db["unitframe"]["units"]["party"]["debuffs"]["countFont"] = "Montserrat-Bold"
+    E.db["unitframe"]["units"]["party"]["debuffs"]["countFont"] = "Exo2-Bold"
     E.db["unitframe"]["units"]["party"]["debuffs"]["numrows"] = 2
     E.db["unitframe"]["units"]["party"]["debuffs"]["perrow"] = 3
     E.db["unitframe"]["units"]["party"]["debuffs"]["sizeOverride"] = 20
     E.db["unitframe"]["units"]["party"]["debuffs"]["yOffset"] = -50
-    E.db["unitframe"]["units"]["party"]["rdebuffs"]["font"] = "Montserrat-Bold"
+    E.db["unitframe"]["units"]["party"]["rdebuffs"]["font"] = "Exo2-Bold"
     E.db["unitframe"]["units"]["party"]["raidRoleIcons"]["yOffset"] = -2
     E.db["unitframe"]["units"]["party"]["resurrectIcon"]["size"] = 40
     E.db["unitframe"]["units"]["party"]["buffIndicator"]["enable"] = true
@@ -191,7 +189,7 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["party"]["height"] = 60
 
     E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["enable"] = true
-    E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["font"] = "Montserrat-Bold"
+    E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["font"] = "Exo2-Bold"
     E.db["unitframe"]["units"]["raid40"]["growthDirection"] = "RIGHT_UP"
     E.db["unitframe"]["units"]["raid40"]["width"] = 100
     E.db["unitframe"]["units"]["raid40"]["height"] = 32
@@ -207,7 +205,6 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["target"]["CombatIcon"]["size"] = 60
     E.db["unitframe"]["units"]["target"]["CombatIcon"]["xOffset"] = -55
     E.db["unitframe"]["units"]["target"]["CombatIcon"]["yOffset"] = -20
-    E.db["unitframe"]["units"]["target"]["aurabar"]["enable"] = false
     E.db["unitframe"]["units"]["target"]["buffs"]["countFont"] = "Exo2-Bold"
     E.db["unitframe"]["units"]["target"]["buffs"]["priority"] =
         "Blacklist,Personal,PlayerBuffs,Whitelist,blockNoDuration,nonPersonal"
@@ -272,13 +269,13 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["raid40"]["visibility"] = "[@raid26,noexists] hide;show"
 
     -- Basic Raid Frame setup
-    E.db["unitframe"]["units"]["raid"]["rdebuffs"]["font"] = "Montserrat-Bold"
+    E.db["unitframe"]["units"]["raid"]["rdebuffs"]["font"] = "Exo2-Bold"
     E.db["unitframe"]["units"]["raid"]["rdebuffs"]["xOffset"] = 0
     E.db["unitframe"]["units"]["raid"]["rdebuffs"]["yOffset"] = 5
     E.db["unitframe"]["units"]["raid"]["debuffs"]["attachTo"] = "FRAME"
     E.db["unitframe"]["units"]["raid"]["debuffs"]["anchorPoint"] = "TOP"
     E.db["unitframe"]["units"]["raid"]["debuffs"]["clickThrough"] = true
-    E.db["unitframe"]["units"]["raid"]["debuffs"]["countFont"] = "Montserrat-Bold"
+    E.db["unitframe"]["units"]["raid"]["debuffs"]["countFont"] = "Exo2-Bold"
     E.db["unitframe"]["units"]["raid"]["debuffs"]["enable"] = true
     E.db["unitframe"]["units"]["raid"]["debuffs"]["numrows"] = 2
     E.db["unitframe"]["units"]["raid"]["debuffs"]["perrow"] = 3
@@ -331,7 +328,7 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["targettarget"]["threatStyle"] = "GLOW"
     E.db["unitframe"]["units"]["targettarget"]["width"] = 200
 
-    E.db["unitframe"]["font"] = "Montserrat-Bold"
+    E.db["unitframe"]["font"] = "Exo2-Bold"
     E.db["unitframe"]["colors"]["auraBarBuff"]["r"] = 0.96
     E.db["unitframe"]["colors"]["auraBarBuff"]["g"] = 0.55
     E.db["unitframe"]["colors"]["auraBarBuff"]["b"] = 0.73
@@ -359,4 +356,23 @@ function NoobTacoUIv2:SetupLayout()
     E.db["unitframe"]["units"]["raid"]["roleIcon"]["size"] = 12
     E.db["unitframe"]["units"]["raid"]["roleIcon"]["combatHide"] = true
     E.db["unitframe"]["units"]["raid"]["roleIcon"]["damager"] = false
+
+    -- Arena Frames
+    E.db["unitframe"]["units"]["arena"]["buffs"]["countFont"] = "Exo2-Bold"
+    E.db["unitframe"]["units"]["arena"]["debuffs"]["countFont"] = "Exo2-Bold"
+    E.db["unitframe"]["units"]["arena"]["height"] = 55
+    E.db["unitframe"]["units"]["arena"]["spacing"] = 20
+
+    -- Boss Frames
+    E.db["unitframe"]["units"]["boss"]["buffs"]["maxDuration"] = 300
+    E.db["unitframe"]["units"]["boss"]["buffs"]["sizeOverride"] = 20
+    E.db["unitframe"]["units"]["boss"]["buffs"]["yOffset"] = 16
+    E.db["unitframe"]["units"]["boss"]["castbar"]["width"] = 200
+    E.db["unitframe"]["units"]["boss"]["debuffs"]["maxDuration"] = 300
+    E.db["unitframe"]["units"]["boss"]["debuffs"]["sizeOverride"] = 20
+    E.db["unitframe"]["units"]["boss"]["debuffs"]["yOffset"] = -16
+    E.db["unitframe"]["units"]["boss"]["height"] = 50
+    E.db["unitframe"]["units"]["boss"]["infoPanel"]["height"] = 17
+    E.db["unitframe"]["units"]["boss"]["spacing"] = 16
+    E.db["unitframe"]["units"]["boss"]["width"] = 200
 end
